@@ -1,8 +1,8 @@
-# Formal & Abductive Explanation of Neural Networks — Reading List
+# Formal Abductive Explanations for Deep Neural Networks: Solvers, Bound Propagation, and Abstraction–Refinement
 
-A survey of papers on abductive (formal) explanations of neural networks and the surrounding work they build on: verification solvers, bound propagation, preimage computation, hyperproperties, and explainability for learned controllers.
+Reading list for a survey of formal (abductive) explanations of deep neural networks, organized by how the explanation is computed: exact SMT/MILP solvers, bound propagation, and abstraction–refinement. Also covers the surrounding work the survey draws on — preimage computation, hyperproperties, and explainability for learned controllers.
 
-56 papers. Sorted by venue (A→Z), then by date. Links point to arXiv where available, otherwise the publisher/DOI page.
+57 papers. Sorted by venue (A→Z), then by date. Links point to arXiv where available, otherwise the publisher/DOI page.
 
 | Paper | Venue | Date | Tags |
 |---|---|---|---|
@@ -15,6 +15,7 @@ A survey of papers on abductive (formal) explanations of neural networks and the
 | [Explainable Reinforcement Learning: A Survey and Comparative Review](https://doi.org/10.1145/3616864) | ACM Computing Surveys | 2024 | RL, survey, explainable RL |
 | [Explainable Autonomous Robots: A Survey and Perspective](https://arxiv.org/abs/2105.02658) | Advanced Robotics | 2022 | robotics, survey, explainable robots |
 | [Faithful and Customizable Explanations of Black Box Models](https://doi.org/10.1145/3306618.3314229) | AIES | 2019 | global explanation, model-agnostic, rule-based |
+| [Logic-Based Explainability: Past, Present & Future](https://arxiv.org/abs/2406.11873) | arXiv | 2024 | formal XAI, survey, open problems |
 | [Property Inference for Deep Neural Networks](https://arxiv.org/abs/1904.13215) | ASE | 2019 | global explanation, property inference, activation patterns |
 | [Formal Specification for Deep Neural Networks](https://doi.org/10.1007/978-3-030-01090-4_2) | ATVA | 2018 | specification, hyperproperties, verification |
 | [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://arxiv.org/abs/1702.01135) | CAV | 2017 | verification, SMT, solver |
@@ -61,6 +62,31 @@ A survey of papers on abductive (formal) explanations of neural networks and the
 | [Provable Preimage Under-Approximation for Neural Networks](https://arxiv.org/abs/2305.03686) | TACAS | 2024 | preimage, global explanation, under-approximation |
 | [Fully Automatic Neural Network Reduction for Formal Verification](https://arxiv.org/abs/2305.01932) | TMLR | 2025 | abstraction, network reduction, verification |
 | [Formal Verification of Neural Networks for Safety-Critical Tasks in Deep Reinforcement Learning](https://proceedings.mlr.press/v161/corsi21a.html) | UAI | 2021 | RL, verification, safety |
+| [Bisimulations for Neural Network Reduction](https://arxiv.org/abs/2110.03726) | VMCAI | 2022 | abstraction, network reduction, verification |
+
+## Already read
+
+18 of 57 papers. Same columns and sort order.
+
+| Paper | Venue | Date | Tags |
+|---|---|---|---|
+| [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://arxiv.org/abs/1702.01135) | CAV | 2017 | verification, SMT, solver |
+| [The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://doi.org/10.1007/978-3-030-25540-4_26) | CAV | 2019 | verification, SMT, solver, tool |
+| [Secure Information Flow by Self-Composition](https://doi.org/10.1109/CSFW.2004.17) | CSFW | 2004 | hyperproperties, self-composition, security |
+| [Formally Explaining Neural Networks within Reactive Systems](https://arxiv.org/abs/2308.00143) | FMCAD | 2023 | abductive explanation, reactive systems, RL |
+| [Evaluating Robustness of Neural Networks with Mixed Integer Programming](https://arxiv.org/abs/1711.07356) | ICLR | 2019 | verification, MILP, robustness |
+| [FAME: Formal Abstract Minimal Explanation for Neural Networks](https://arxiv.org/abs/2603.10661) | ICLR | 2026 | abductive explanation, abstraction, minimal explanation |
+| [Explaining, Fast and Slow: Abstraction and Refinement of Provable Explanations](https://arxiv.org/abs/2506.08505) | ICML | 2025 | abductive explanation, abstraction-refinement, scalability |
+| [PREMAP: A Unifying PREiMage APproximation Framework for Neural Networks](https://arxiv.org/abs/2408.09262) | JMLR | 2025 | preimage, global explanation, bound propagation |
+| [Distance-Restricted Explanations: Theoretical Underpinnings & Efficient Implementation](https://arxiv.org/abs/2405.08297) | KR | 2024 | abductive explanation, distance-restricted, logic-based XAI |
+| [Efficient Neural Network Robustness Certification with General Activation Functions](https://arxiv.org/abs/1811.00866) | NeurIPS | 2018 | bound propagation, CROWN, certified robustness |
+| [Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond](https://arxiv.org/abs/2002.12920) | NeurIPS | 2020 | bound propagation, auto_LiRPA, certified robustness |
+| [Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints for Neural Network Robustness Verification](https://arxiv.org/abs/2103.06624) | NeurIPS | 2021 | bound propagation, branch-and-bound, verification |
+| [Provably Bounding Neural Network Preimages](https://arxiv.org/abs/2302.01404) | NeurIPS | 2023 | preimage, bound propagation, over-approximation |
+| [VeriX: Towards Verified Explainability of Deep Neural Networks](https://arxiv.org/abs/2212.01051) | NeurIPS | 2023 | abductive explanation, verified explanation, robustness |
+| [Towards Formal XAI: Formally Approximate Minimal Explanations of Neural Networks](https://arxiv.org/abs/2210.13915) | TACAS | 2023 | abductive explanation, minimal explanation, verification |
+| [Provable Preimage Under-Approximation for Neural Networks](https://arxiv.org/abs/2305.03686) | TACAS | 2024 | preimage, global explanation, under-approximation |
+| [Fully Automatic Neural Network Reduction for Formal Verification](https://arxiv.org/abs/2305.01932) | TMLR | 2025 | abstraction, network reduction, verification |
 | [Bisimulations for Neural Network Reduction](https://arxiv.org/abs/2110.03726) | VMCAI | 2022 | abstraction, network reduction, verification |
 
 ## Tag glossary
